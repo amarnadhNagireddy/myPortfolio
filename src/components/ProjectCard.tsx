@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { ExternalLink, GitHub } from 'lucide-react';
+import { ExternalLink, Github } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 export interface ProjectData {
@@ -70,7 +70,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
               rel="noopener noreferrer"
               className="flex items-center gap-1 text-cosmos-galaxy hover:text-cosmos-star"
             >
-              <GitHub size={16} />
+              <Github size={16} />
               <span>Source Code</span>
             </a>
           )}

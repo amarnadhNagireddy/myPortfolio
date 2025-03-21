@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { GitHub, Linkedin, Twitter, Mail } from 'lucide-react';
+import { Github, Linkedin, Twitter, Mail } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
               className="text-cosmos-galaxy hover:text-cosmos-star transition-colors duration-300"
               aria-label="GitHub"
             >
-              <GitHub size={20} />
+              <Github size={20} />
             </a>
             <a 
               href="https://linkedin.com" 

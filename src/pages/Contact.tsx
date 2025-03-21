@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Mail, MapPin, Phone, GitHub, Linkedin, Twitter } from 'lucide-react';
+import { Mail, MapPin, Phone, Github, Linkedin, Twitter } from 'lucide-react';
 import ContactForm from '../components/ContactForm';
 
 const Contact: React.FC = () => {
@@ -87,7 +87,7 @@ const Contact: React.FC = () => {
                     className="w-10 h-10 rounded-full bg-cosmos-stardust flex items-center justify-center text-cosmos-star hover:bg-cosmos-purple transition-colors"
                     aria-label="GitHub"
                   >
-                    <GitHub size={20} />
+                    <Github size={20} />
                   </a>
                   <a 
                     href="https://linkedin.com" 
