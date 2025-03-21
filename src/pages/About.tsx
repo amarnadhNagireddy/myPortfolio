@@ -6,7 +6,6 @@ import { Code, PenTool, Database, Globe, Lightbulb, Clock } from 'lucide-react';
 const About: React.FC = () => {
   const skills = [
     { name: 'Frontend Development', icon: <Code size={24} /> },
-    { name: 'UI/UX Design', icon: <PenTool size={24} /> },
     { name: 'Backend Development', icon: <Database size={24} /> },
     { name: 'Responsive Web Design', icon: <Globe size={24} /> },
     { name: 'Problem Solving', icon: <Lightbulb size={24} /> },
