@@ -1,4 +1,4 @@
-
+import { useNavigate } from 'react-router-dom';
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowDown } from 'lucide-react';
@@ -10,6 +10,7 @@ const Hero: React.FC = () => {
       projectsSection.scrollIntoView({ behavior: 'smooth' });
     }
   };
+  const navigate = useNavigate();
 
   return (
     <section className="min-h-[90vh] flex flex-col justify-center items-center text-center px-6 relative overflow-hidden">
@@ -51,9 +52,9 @@ const Hero: React.FC = () => {
           <a href="/contact" className="btn btn-primary">
             Get in touch
           </a>
-          <button onClick={scrollToProjects} className="btn btn-outline">
-            View my work
-          </button>
+          <button onClick={() => navigate('/projects')} className="btn btn-outline">
+      View my work
+    </button>
         </motion.div>
       </div>
 

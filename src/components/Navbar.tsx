@@ -35,7 +35,7 @@ const Navbar: React.FC = () => {
           to="/" 
           className="font-bold text-2xl text-cosmos-star"
         >
-          <span className="text-gradient">Cosmo</span>Folio
+          <span className="text-gradient">Amarnadh </span>Nagireddy
         </NavLink>
 
         {/* Desktop Navigation */}

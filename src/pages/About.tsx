@@ -33,13 +33,13 @@ const About: React.FC = () => {
               transition={{ duration: 0.5, delay: 0.1 }}
             >
               <div className="w-full md:w-1/3 mb-6 md:mb-0">
-                <div className="relative w-48 h-48 mx-auto overflow-hidden rounded-full border-4 border-cosmos-purple">
-                  <img 
-                    src="https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?auto=format&fit=crop&w=800&q=80" 
-                    alt="Profile" 
-                    className="w-full h-full object-cover"
-                  />
-                </div>
+              <div className="relative w-48 h-48 mx-auto overflow-hidden rounded-full border-4 border-cosmos-purple">
+  <img 
+    src="/profile.webp" 
+    alt="Profile" 
+    className="w-full h-full object-cover"
+  />
+</div>
               </div>
 
               <div className="w-full md:w-2/3">
