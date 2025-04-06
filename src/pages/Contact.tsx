@@ -51,7 +51,7 @@ const Contact: React.FC = () => {
                   <div>
                     <h3 className="text-sm font-medium mb-1">Email</h3>
                     <a href="mailto:contact@example.com" className="text-cosmos-galaxy hover:text-cosmos-star transition-colors">
-                      contact@example.com
+                    amarnadh.nagireddy@outlook.com
                     </a>
                   </div>
                 </div>
@@ -61,7 +61,7 @@ const Contact: React.FC = () => {
                   <div>
                     <h3 className="text-sm font-medium mb-1">Location</h3>
                     <p className="text-cosmos-galaxy">
-                      San Francisco, California
+                      Rajahmundry, Andhra Pradesh, India
                     </p>
                   </div>
                 </div>
@@ -71,7 +71,7 @@ const Contact: React.FC = () => {
                   <div>
                     <h3 className="text-sm font-medium mb-1">Phone</h3>
                     <a href="tel:+1234567890" className="text-cosmos-galaxy hover:text-cosmos-star transition-colors">
-                      +1 (234) 567-890
+                      +91 70321 45327
                     </a>
                   </div>
                 </div>
@@ -81,7 +81,7 @@ const Contact: React.FC = () => {
                 <h3 className="text-sm font-medium mb-4">Connect with me</h3>
                 <div className="flex gap-4">
                   <a 
-                    href="https://github.com" 
+                    href="https://github.com/amarnadhNagireddy" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="w-10 h-10 rounded-full bg-cosmos-stardust flex items-center justify-center text-cosmos-star hover:bg-cosmos-purple transition-colors"
@@ -90,7 +90,7 @@ const Contact: React.FC = () => {
                     <Github size={20} />
                   </a>
                   <a 
-                    href="https://linkedin.com" 
+                    href="https://www.linkedin.com/in/amarnadhnagireddy/" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="w-10 h-10 rounded-full bg-cosmos-stardust flex items-center justify-center text-cosmos-star hover:bg-cosmos-purple transition-colors"
@@ -98,15 +98,7 @@ const Contact: React.FC = () => {
                   >
                     <Linkedin size={20} />
                   </a>
-                  <a 
-                    href="https://twitter.com" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="w-10 h-10 rounded-full bg-cosmos-stardust flex items-center justify-center text-cosmos-star hover:bg-cosmos-purple transition-colors"
-                    aria-label="Twitter"
-                  >
-                    <Twitter size={20} />
-                  </a>
+                  
                 </div>
               </div>
             </div>

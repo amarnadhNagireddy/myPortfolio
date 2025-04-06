@@ -7,42 +7,35 @@ import { BadgeCheck, Download } from 'lucide-react';
 const experienceData: ExperienceData[] = [
   {
     id: 'exp1',
-    company: 'TechNova',
-    role: 'Senior Frontend Developer',
-    period: 'Jan 2022 - Present',
-    description: 'Lead frontend development for a SaaS platform used by over 10,000 customers. Improved performance by 40% and implemented a new design system.',
-    technologies: ['React', 'TypeScript', 'Redux', 'Tailwind CSS']
+    company: 'Pragmatics',
+    role: 'Python Full Stack Intern',
+    period: 'Aug 2022 - Dec 2022',
+    description: 'Gained hands-on experience with Python programming including libraries such as NumPy and Pandas. Worked with MySQL to design databases, write queries, and manipulate data effectively.',
+    technologies: ['Python', 'NumPy', 'Pandas', 'MySQL']
   },
   {
     id: 'exp2',
-    company: 'DigitalHorizon',
-    role: 'Full Stack Developer',
-    period: 'Mar 2019 - Dec 2021',
-    description: 'Developed and maintained multiple client websites and web applications. Collaborated with designers and back-end developers to create seamless user experiences.',
-    technologies: ['JavaScript', 'Vue.js', 'Node.js', 'MongoDB']
-  },
-  {
-    id: 'exp3',
-    company: 'CreativeSpace',
-    role: 'Web Developer',
-    period: 'May 2017 - Feb 2019',
-    description: 'Designed and developed responsive websites for clients across various industries. Implemented SEO best practices and performance optimizations.',
-    technologies: ['HTML/CSS', 'JavaScript', 'WordPress', 'PHP']
+    company: 'Krify Software Solutions',
+    role: 'Cybersecurity Intern',
+    period: 'June 2024 - July 2024',
+    description: 'Learned to identify and mitigate web vulnerabilities such as SQL Injection and Cross-Site Scripting (XSS). Applied best practices to enhance the security of web applications.',
+    technologies: ['Cybersecurity', 'Web Security']
   }
 ];
 
+
 const educationData = [
   {
-    degree: 'Master of Science in Computer Science',
-    institution: 'Stanford University',
-    period: '2015 - 2017',
-    description: 'Specialized in Human-Computer Interaction and Web Technologies. Thesis on adaptive user interfaces.'
+    degree: 'Bachelor of Technology',
+    institution: 'G M R Institute of Technology',
+    period: '2023 - present',
+    description: 'Currently pursuing  in Computer Science and Engineering, with a strong focus on Web development, Data Structures and Computer Networks'
   },
   {
-    degree: 'Bachelor of Science in Software Engineering',
-    institution: 'MIT',
-    period: '2011 - 2015',
-    description: 'Graduated with honors. Participated in multiple hackathons and coding competitions.'
+    degree: 'Diploma',
+    institution: 'GIET, Rajahmundry',
+    period: '2020 - 2023',
+    description: "Completed a three-year Diploma in Computer Engineering, gaining knowledge in core areas such as programming, networks, and databases."
   }
 ];
 
@@ -76,7 +69,7 @@ const Experience: React.FC = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
         >
           <a 
-            href="/resume.pdf" 
+            href="https://drive.usercontent.google.com/download?id=1uVT10YjYBhYbhHPd0j4g6_fBxjOBntuX&export=download&authuser=0&confirm=t&uuid=afd8d092-4c6b-41a8-a240-7e7c07ece54b&at=APcmpozTPjdnmD2WEL2A1oDUZLFM:1743957459878" 
             className="inline-flex items-center gap-2 btn btn-outline"
             download
           >

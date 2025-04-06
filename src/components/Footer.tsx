@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Github, Linkedin, Twitter, Mail } from 'lucide-react';
+import { Github, Linkedin, Mail } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -9,16 +9,13 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <h3 className="font-bold text-xl">
-              <span className="text-gradient">Cosmo</span>Folio
+              <span className="text-gradient">Amarnadh </span>Nagireddy
             </h3>
-            <p className="mt-2 text-cosmos-galaxy text-sm">
-              Designed with precision, built with passion.
-            </p>
           </div>
           
           <div className="flex space-x-4">
             <a 
-              href="https://github.com" 
+              href="https://github.com/amarnadhNagireddy" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-cosmos-galaxy hover:text-cosmos-star transition-colors duration-300"
@@ -27,7 +24,7 @@ const Footer: React.FC = () => {
               <Github size={20} />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/amarnadhnagireddy/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-cosmos-galaxy hover:text-cosmos-star transition-colors duration-300"
@@ -35,17 +32,9 @@ const Footer: React.FC = () => {
             >
               <Linkedin size={20} />
             </a>
+            
             <a 
-              href="https://twitter.com" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-cosmos-galaxy hover:text-cosmos-star transition-colors duration-300"
-              aria-label="Twitter"
-            >
-              <Twitter size={20} />
-            </a>
-            <a 
-              href="mailto:contact@example.com" 
+              href="mailto:amarnadh.nagireddy@outlook.com" 
               className="text-cosmos-galaxy hover:text-cosmos-star transition-colors duration-300"
               aria-label="Email"
             >
@@ -55,7 +44,7 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="mt-8 text-center text-cosmos-galaxy text-sm">
-          <p>© {new Date().getFullYear()} CosmoFolio. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Amarnadh Nagireddy All rights reserved.</p>
         </div>
       </div>
     </footer>

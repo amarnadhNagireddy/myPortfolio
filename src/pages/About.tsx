@@ -43,18 +43,16 @@ const About: React.FC = () => {
               </div>
 
               <div className="w-full md:w-2/3">
-                <h2 className="text-2xl font-semibold mb-4">Hello there, I'm John Doe</h2>
-                <p className="text-cosmos-galaxy mb-4">
-                  I'm a passionate web developer with over 5 years of experience creating interactive 
+                <h2 className="text-2xl font-semibold mb-4">Hello there, I'm Amarnadh Nagireddy</h2>
+                <p className="text-cosmos-galaxy mb-4 text-justify">
+                  I'm a passionate web developer with over 2 years of experience creating interactive 
                   and responsive web applications. My journey in web development began with a curiosity 
                   about how websites worked, and it evolved into a career where I get to build digital 
                   experiences that people love to use.
                 </p>
-                <p className="text-cosmos-galaxy">
-                  Based in San Francisco, I specialize in frontend development with React and TypeScript, 
-                  though I'm comfortable working across the full stack. I love the intersection of design 
-                  and development, creating solutions that are both beautiful and functional.
-                </p>
+                <p className="text-cosmos-galaxy text-justify">
+                I’m a frontend development specialist with expertise in React and TypeScript, complemented by strong skills in Django for backend work. I thrive at the crossroads of design and development, crafting full-stack solutions that seamlessly blend aesthetics with functionality.
+                 </p>
               </div>
             </motion.div>
           </div>
@@ -76,16 +74,13 @@ const About: React.FC = () => {
             </p>
             
             <p className="text-cosmos-galaxy mb-6">
-              After graduating, I joined a small web agency where I got to work on a variety of projects 
-              for different clients. This experience was invaluable as it taught me how to adapt to different 
-              requirements and work effectively under pressure.
+            During my studies, I took on some side projects that threw me into the deep end of real-world coding. It was a whirlwind, but it taught me how to roll with the punches and meet all kinds of challenges head-on.
+            
             </p>
             
             <p className="text-cosmos-galaxy">
-              Today, I work as a full-stack developer at a tech startup, where I'm responsible for building 
-              and maintaining our web platform. I'm constantly learning new technologies and techniques to 
-              improve my skills and deliver better products.
-            </p>
+    Now, as I’m graduating, I’m ready to jump into the tech world as a full-stack developer. I’m excited to keep learning, tackle new tools, and create web experiences that make a difference.
+  </p>
           </div>
         </motion.div>
 

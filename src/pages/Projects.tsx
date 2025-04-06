@@ -6,58 +6,25 @@ import ProjectCard, { ProjectData } from '../components/ProjectCard';
 const projectsData: ProjectData[] = [
   {
     id: 'project1',
-    title: 'Galaxy Explorer',
-    description: 'An interactive web application for exploring galaxies and celestial objects.',
-    image: 'https://images.unsplash.com/photo-1492321936769-b49830bc1d1e?auto=format&fit=crop&w=800&q=80',
-    tags: ['React', 'Three.js', 'WebGL'],
-    demoUrl: 'https://example.com',
-    codeUrl: 'https://github.com'
+    title: 'Image Encryption & Decryption',
+    description: 'The app processes the uploaded image, applies a manipulation (encryption or decryption), and then displays both the original and manipulated images.',
+    tags: ['Python', 'Flask'],
+    codeUrl: 'https://github.com/amarnadhNagireddy/image_encryption_decryption.git'
   },
   {
     id: 'project2',
-    title: 'Nebula Dashboard',
-    description: 'A responsive admin dashboard with dark mode and data visualization.',
-    image: 'https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?auto=format&fit=crop&w=800&q=80',
-    tags: ['TypeScript', 'Next.js', 'Tailwind CSS'],
-    demoUrl: 'https://example.com',
-    codeUrl: 'https://github.com'
+    title: 'Todo List',
+    description: 'simple To-Do web application built using Django that allows users to manage tasks efficiently. ',
+    tags: ['Django', 'Postgresql', 'CSS'],
+    codeUrl: 'https://github.com/amarnadhNagireddy/todo_list.git'
   },
   {
     id: 'project3',
-    title: 'Stellar E-Commerce',
-    description: 'A full-stack e-commerce platform with payment integration and user authentication.',
-    image: 'https://images.unsplash.com/photo-1470813740244-df37b8c1edcb?auto=format&fit=crop&w=800&q=80',
-    tags: ['React', 'Node.js', 'MongoDB'],
-    demoUrl: 'https://example.com',
-    codeUrl: 'https://github.com'
+    title: 'Portfolio',
+    description: 'Developed a personal portfolio website to showcase my skills, projects, and professional experience.',
+    tags: ['Typescript', 'React', 'Tailwind CSS'],
+    codeUrl: 'https://github.com/amarnadhNagireddy/myPortfolio.git'
   },
-  {
-    id: 'project4',
-    title: 'Cosmic Blog Platform',
-    description: 'A modern blog platform with markdown support and search functionality.',
-    image: 'https://images.unsplash.com/photo-1492321936769-b49830bc1d1e?auto=format&fit=crop&w=800&q=80',
-    tags: ['Next.js', 'GraphQL', 'Tailwind CSS'],
-    demoUrl: 'https://example.com',
-    codeUrl: 'https://github.com'
-  },
-  {
-    id: 'project5',
-    title: 'Orbit Weather App',
-    description: 'A beautiful weather application with detailed forecasts and animations.',
-    image: 'https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?auto=format&fit=crop&w=800&q=80',
-    tags: ['React', 'Weather API', 'CSS Animations'],
-    demoUrl: 'https://example.com',
-    codeUrl: 'https://github.com'
-  },
-  {
-    id: 'project6',
-    title: 'Solar System Visualizer',
-    description: 'An educational 3D visualization of our solar system with accurate scales and orbits.',
-    image: 'https://images.unsplash.com/photo-1470813740244-df37b8c1edcb?auto=format&fit=crop&w=800&q=80',
-    tags: ['Three.js', 'JavaScript', 'WebGL'],
-    demoUrl: 'https://example.com',
-    codeUrl: 'https://github.com'
-  }
 ];
 
 // Get all unique tags from projects

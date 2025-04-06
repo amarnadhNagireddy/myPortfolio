@@ -30,7 +30,7 @@ const Hero: React.FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-          Exploring the <span className="text-gradient">universe</span> of digital creation
+          Amarnadh<span className="text-gradient"> Nagireddy</span>
         </motion.h1>
 
         <motion.p
